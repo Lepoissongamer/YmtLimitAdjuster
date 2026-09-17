@@ -1,4 +1,4 @@
-# YmtLimitAdjuster — GTA V Legacy
+# YmtLimitAdjuster - GTA V Legacy
 YmtLimitAdjuster is a script fully made by ChatGPT.
 ## How It Works
 
