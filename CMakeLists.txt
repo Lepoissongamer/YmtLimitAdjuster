@@ -42,6 +42,6 @@ if(WIN32)
     target_link_options(YmtLimitAdjuster PRIVATE -static-libgcc -static-libstdc++)
   endif()
   install(TARGETS YmtLimitAdjuster RUNTIME DESTINATION . LIBRARY DESTINATION .)
-  install(FILES README.md THIRD_PARTY_NOTICES.md 
+  install(FILES README.md THIRD_PARTY_NOTICES.md DESTINATION .)
   install(FILES third_party/minhook/LICENSE.txt DESTINATION licenses RENAME MinHook.txt)
 endif()
